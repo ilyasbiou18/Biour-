@@ -11,3 +11,36 @@ project/
 │
 └── js/
     └── script.js
+
+1-index.html
+
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>موقع الخدمات</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>موقع الخدمات</h1>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="services.html">الخدمات</a>
+    <a href="about.html">من نحن</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>مرحبا بك في موقعنا</h2>
+  <p>نقدم أفضل الخدمات الرقمية</p>
+</section>
+
+<footer>
+  <p>© 2026 جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
