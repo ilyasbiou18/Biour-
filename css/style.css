@@ -1,0 +1,78 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f5f5f5;
+  text-align:center;
+}
+
+header{
+  background:#222;
+  color:white;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.hero{
+  background:#4CAF50;
+  color:white;
+  padding:60px;
+}
+
+.services{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:30px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  width:200px;
+  box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.about-section img{
+  width:70%;
+  max-width:400px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+.contact-form{
+  padding:30px;
+}
+
+input, textarea{
+  width:80%;
+  margin:8px 0;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+button{
+  background:#4CAF50;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  cursor:pointer;
+  border-radius:6px;
+}
+
+button:hover{
+  background:#45a049;
+}
+
+footer{
+  background:#222;
+  color:white;
+  padding:10px;
+  margin-top:20px;
+}
